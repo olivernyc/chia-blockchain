@@ -64,7 +64,7 @@ class ChiaServer:
         api: Any,
         local_type: NodeType,
         ping_interval: int,
-        network_id: bytes32,
+        network_id: str,
         root_path: Path,
         config: Dict,
         private_ca_crt_key: Tuple[Path, Path],
